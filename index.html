@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--اسم الصفحة الذي يظهر في تبويب المتصفح-->
+    <title>BMW|The Art of Driving</title>
+    <!--ربط ملفHTML/CSSبملف-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVBAR - شريط التنقل -->
+  <header class="navbar"><!--رأس الصفحة الجزء العلوي-->
+    <!-- اسم الموقع / الشعار -->
+        <div class="logo">BMW</div>
+        <!-- روابط الانتقال بين صفحات الموقع -->
+        <nav>
+            <!-- الصفحة الحالية -->
+            <a href="Home.html">Home</a>
+            <!-- نربطه بصفحة الموديلات -->
+            <a href="models.html">Models</a>
+            <!--  نربطه بصفحة السباقات-->
+            <a href="racing.html">Racing</a>
+            <!--  نربطه بصفحة التواصل-->
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+      <!-- صورة السيارة الرئيسية -->
+      <img src="home.car.png" alt="BMW car" class="hero-image">
+      <!--عرض الصورة في حال لم تنعرض الصورة يظهر كلمة BMW car-->
+      <!-- طبقة شفافة فوق الصورة حتى يظهر الكلام الأبيض بوضوح -->
+         <div class="hero-overlay"></div>
+      <!-- الكلام الموجود فوق صورة السيارة -->
+         <div class="hero-content">
+      <!-- العنوان الرئيسي -->
+            <h1>THE ART OF DRIVING</h1><!--فن القيادة-->
+            <!-- الجملة القصيرة -->
+            <h4 class="tagline">
+                Where Performance Meets Luxury.
+            </h4><!--حيث يلتقي الاداء بالفخامة-->
+            <!-- النص التعريفي بالعربي -->
+            <p class="hero-description">    
+            .حيث يجتمع الأداء الاستثنائي مع التصميم الفاخر والتقنية المتطورة ,BMW اكتشف عالم  
+            </p>
+            <!-- الزر الذي ينقل المستخدم إلى صفحة الموديلات -->
+            <a href="models.html" class="hero-button">
+                EXPLORE MODELS<!--استكشف الموديلات-->
+            </a>
+        </div>
+        <!-- مؤشر بسيط يخبر المستخدم أن هناك محتوى أسفل -->
+        <div class="scroll-down">
+            Scroll Down ↓
+        </div>
+    </section>
+    <!-- عن العلامة -->
+   <section class="about">
+        <!-- الصورة الخاصة بقسم About -->
+        <div class="about-image">
+            <!-- صورة العلامة -->
+            <img src="about.jpg" alt="BMW car">
+        </div>
+        <!-- محتوى النص والمعلومات -->
+        <div class="about-content">
+            <!-- عنوان القسم -->
+            <h2>ABOUT THE BRAND</h2>
+            <!-- العنوان الفرعي -->
+            <h3>Driven by Passion. Built for the Future.</h3>
+            <!---->
+            <!-- النص التعريفي -->
+            <p>
+            BMW منذ تأسيسها صنعت لنفسها مكانة مميزة في عالم السيارات، جامعةً بين التصميم المتقن،الاداء القوي،والتقنيات التي تواكب العصر               
+            <div class="brand-info">
+
+                <!-- المعلومة الأولى -->
+                <div class="info-item">
+                    <!--سنة التأسيس-->
+                    <span>Founded</span>
+                    <strong>1916</strong>
+                </div> 
+                <!-- المعلومة الثانية -->
+                <div class="info-item">
+                     <!--بلد المنشأ-->
+                    <span>Origin</span>
+                    <strong>Germany</strong>
+                </div>
+                <!-- المعلومة الثالثة -->
+                <div class="info-item">
+                    <span>Featues</span>
+                    <!--المميزات الاداء والفخامة-->
+                    <strong>Performance & Luxury</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الموديلات المميزة -->
+     <section class="models">
+        <!--  عنوان القسم الموديلات المميزة -->
+        <h2>FEATURED MODELS</h2>
+        <!-- الجملة القصيرة -->
+        <p class="section-subtitle">Designed to move you.<!--صممت لتأخذك الى ابعد--></p>
+        <!-- الحاوية التي تحتوي السيارات الثلاث -->
+        <div class="model-container">
+
+     <!-- السيارة الأولى - BMW M4 -->
+        <div class="model-card">
+         <!-- صورة BMW M4 -->
+         <img src="BMW M4.jpg"alt="BMW M4">
+         <!-- اسم السيارة -->
+          <h3>BMW M4</h3>
+         <!-- معلومة بسيطة عن السيارة -->
+         <p>.سيارة رياضية تجمع بين القوة والدقة</p>
+         <!-- ينقل المستخدم إلى تفاصيل BMW M4 -->
+         <a href="models.html#m4">VIEW DETAILS</a>
+        </div>
+            <!-- السيارة الثانية - BMW 7 Series -->
+             <div class="model-card">
+                <!-- صورة BMW 7 Series -->
+                <img src="BMW 7.jpg"alt="BMW 7 Series">
+                <!-- اسم السيارة -->
+                <h3>BMW 7 SERIES</h3>
+                <!-- معلومة بسيطة -->
+                <p>.فخامة متطورة مع أداء استثنائي</p>
+                <!-- ينقل المستخدم إلى تفاصيل السيارة -->
+                <a href="models.html#series7">VIEW DETAILS</a>
+             </div>
+           <!-- السيارة الثالثة - BMW X6 M -->
+             <div class="model-card">
+                <!-- صورة BMW X6 M -->
+                <img src="BMW X6.jpg" alt="BMW X6 M">
+                <!-- اسم السيارة -->
+                <h3>BMW X6 M</h3>
+                <!-- معلومة بسيطة -->
+                <p>.SUVقوة رياضية بتصميم فاخر</p>
+                <!-- ينقل المستخدم إلى تفاصيل السيارة -->
+                <a href="models.html#x6m">VIEW DETAILS</a>
+             </div>
+        </div>
+    </section>
+
+     
+    <section class="racing">
+            <!-- لمحة عن السباقات -->
+            <!-- صورة السباق -->
+            <img src="racing.jpg"alt="BMW racing car"class="racing-image">
+            <!-- طبقة داكنة فوق الصورة -->
+            <!-- تجعل النص الأبيض واضحًا -->
+            <div class="racing-overlay"></div>
+            <!-- الكلام فوق صورة السباق -->
+            <div class="racing-content">
+            <!-- عنوان القسم -->
+            <h2>RACING HIGHLIGHT</h2>
+            <!-- الجملة القصيرة -->
+            <h3>Born for the Track.</h3>
+            <!-- الوصف العربي -->
+            <p> حيث تلتقي السرعة بالدقة، ويصبح كل سباق اختبارًا حقيقيًا للأداء.</p>
+            <!-- ينقل المستخدم إلى صفحة Racing -->
+            <a href="racing.html">EXPLORE RACING</a>
+            </div>
+    </section>
+   <!-- FOOTER -->
+    <footer>
+
+        <!-- حقوق الموقع -->
+        <p> © 2026 BMW Website. All Rights Reserved.</p>
+
+    </footer>
+
+  
+  
+
+</body>
+</html>
